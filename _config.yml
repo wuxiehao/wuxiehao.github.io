@@ -1,31 +1,23 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Xiehao Wu's blog
-email: wuxiehao@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  About virtual reality, augmented reality, robotics and other topics.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wuxiehao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  wuxiehao
+# Setup
+title:               Xiehao Wu's blog
+tagline:             
+description:         'About virtual reality, augmented reality, robotics and other topics.'
+url:                 http://wuxiehao.github.io
+baseurl:             ''
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
-# Build settings
-markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# About/contact
+author:
+  name:              Xiehao Wu
+  url:               
+  email:             wuxiehao@gmail.com
+
+# Custom vars
+version:             1.0.0
