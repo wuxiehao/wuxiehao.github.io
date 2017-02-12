@@ -1,23 +1,23 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:  pretty
+permalink: pretty
 
 # Setup
-title:  Xiehao Wu's blog
-tagline:  'Sooner or later, it's now or never.'
-description:  'About virtual reality, augmented reality, robotics and other topics.'
-url:  http://wuxiehao.github.io
-baseurl:  ''
+title: "Xiehao Wu's blog"
+tagline: 'Sooner or later, it's now or never.'
+description: 'About virtual reality, augmented reality, robotics and other topics.'
+url: http://wuxiehao.github.io
+baseurl: ''
 gems: [jekyll-paginate]
 paginate: 5
-paginate_path:  "page:num"
+paginate_path: "page:num"
 
 # About/contact
 author:
   name: Xiehao Wu
-  url:               
-  email:  wuxiehao@gmail.com
+  url: 
+  email: wuxiehao@gmail.com
 
 # Custom vars
-version:  1.0.0
+version: 1.0.0
